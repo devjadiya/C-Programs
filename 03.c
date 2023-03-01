@@ -9,5 +9,4 @@ int main()
     printf("%d\n", num1);
     printf("%d\n", num2);
     return 0;
-
 }
