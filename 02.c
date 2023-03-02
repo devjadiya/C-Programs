@@ -1,27 +1,17 @@
-// Escape sequences \t
-
-#include<stdio.h>
+// Arithmetic Operators
+#include <stdio.h>
 int main()
 {
-printf("Hello git!\t");
-printf("I am writing c codes");
-return 0;
-}
+    int x = 50;
+    int y = 40;
 
-// Backslash
-#include<stdio.h>
-int main()
-{
-    printf("Hello gits\\");
-    printf("I am writing c codes");
-return 0;
-}
+    printf("%d\n", x + y);
+    printf("%d\n", x - y);
+    printf("%d\n", x * y);
+    printf("%d\n", x / y);
+    printf("%d\n", x % y);
+    printf("%d\n", ++x);
+    printf("%d\n", --y);
 
-// Inserting a double quote character 
-#include<stdio.h>
-int main()
-{
-    printf("They call me \"dev\"");
     return 0;
-    
 }
